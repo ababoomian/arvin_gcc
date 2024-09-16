@@ -1,0 +1,15 @@
+start
+    Print: "Enter the price of the item before sales tax:"
+    input: item_price
+    
+    print: "Enter the sales tax rate :"
+    input: sales_tax_rate
+
+    set: sales_tax_amount = item_price * (sales_tax_rate / 100)
+
+    set: total_price = item_price + sales_tax_amount
+
+    print: "The amount of sales tax is:", sales_tax_amount
+    print: "The total retail price is:", total_price
+
+end

@@ -1,0 +1,13 @@
+start
+
+    print: "Enter your bonus percentage (as a percentage):"
+    input: bonus_percentage
+
+    print: "Enter the number of sales you generated for the month:"
+    input: monthly_sales
+
+    set: bonus = (bonus_percentage / 100) * monthly_sales
+
+    print: "Your bonus for the month is:", bonus
+
+end

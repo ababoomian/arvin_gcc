@@ -1,0 +1,23 @@
+start
+
+    print: "Enter the beginning bank balance:"
+    input: beginning_balance
+
+    print: "Enter the total amount of monthly deposits:"
+    input: monthly_deposits
+
+    print: "Enter the total amount of monthly withdrawals:"
+    input: monthly_withdrawals
+
+    print: "Enter the monthly interest rate :"
+    input: monthly_interest_rate
+
+    set: balance_before_interest = beginning_balance + monthly_deposits - monthly_withdrawals
+
+    set: interest_earned = balance_before_interest * (monthly_interest_rate / 100)
+
+    set: ending_balance = balance_before_interest + interest_earned
+
+    print: "The ending bank balance is:", ending_balance
+
+end
