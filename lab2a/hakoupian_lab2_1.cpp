@@ -1,3 +1,7 @@
+//Arvin Hakoupian
+//Lab 2 part 1
+//CS/IS 135
+
 #include <iostream>
 
 int main() {
