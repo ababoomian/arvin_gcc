@@ -1,11 +1,20 @@
 //Arvin Hakoupian
-//Lab 5 part 1
+//Lab 5 part 2
 //CS/IS 135
 
 #include<iostream>
 #include<cmath>
 #include<iomanip>
 
+/*
+START
+INPUT: to choose three option
+OPTION 1: find area of circle
+OPTION 2: find circumference of circle
+OPTION 3: quit the program
+CHECK THE SELECTED OPTION (with switch-case statement):
+    - DO: corresponding instruction 
+*/
 
 int main()
 {

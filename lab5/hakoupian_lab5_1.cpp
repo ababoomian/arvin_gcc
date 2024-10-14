@@ -6,6 +6,15 @@
 #include<cmath>
 #include<iomanip>
 
+/*
+START
+INPUT: to choose three option
+OPTION 1: find area of circle
+OPTION 2: find circumference of circle
+OPTION 3: quit the program
+CHECK THE SELECTED OPTION (with if and else statement):
+    - DO: corresponding instruction 
+*/
 
 int main()
 {
