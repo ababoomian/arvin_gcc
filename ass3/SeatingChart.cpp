@@ -1,4 +1,3 @@
-// SeatingChart.cpp
 #include "SeatingChart.h"
 #include <iostream>
 
